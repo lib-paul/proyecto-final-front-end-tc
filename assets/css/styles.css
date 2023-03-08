@@ -1,7 +1,5 @@
-
 body {
   font-family: "Open Sans", sans-serif;
-
 }
 
 header {
@@ -12,4 +10,78 @@ a {
   text-decoration: none;
 }
 
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.about {
+  background-image: url("/assets/img/developer.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  
+
+}
+.about h2{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+.about p{
+  color: rgb(160, 66, 66);
+  
+}
+
+
+@media only screen and (max-width:768px) {
+  .profile h1{
+    display: none;
+  }
+
+  .profile .social-links{
+    display: none;
+  }
+
+  .profile img{
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  .row button{
+    font-size-adjust: 0.45;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    display: inline-block;
+  }
+  .profile h1{
+    text-align: left;
+    color: red;
+  }
+
+  .row-secundaria{
+    justify-content: space-between;
+  }
+}
 
