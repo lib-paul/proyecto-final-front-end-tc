@@ -32,7 +32,7 @@ a {
 }
 
 main{
-  background-image: url("/assets/img/developer.jpg");
+  background-image: url("assets/img/developer.jpg");
   background-size: cover;
 }
 .about {
